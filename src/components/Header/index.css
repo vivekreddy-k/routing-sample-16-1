@@ -1,0 +1,83 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 540px) {
+  .header-container {
+    padding: 5px 30px 5px 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header-container {
+    padding: 10px 50px 10px 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-container {
+    padding: 20px 100px 20px 70px;
+  }
+}
+.logo-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-image {
+  width: 30px;
+  height: 30px;
+  padding-right: 6px;
+}
+@media screen and (min-width: 541px) {
+  .logo-image {
+    width: 50px;
+    height: 50px;
+  }
+}
+.logo-heading {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: ##12022f;
+}
+@media screen and (min-width: 541px) {
+  .logo-heading {
+    font-size: 25px;
+  }
+}
+.navigation-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-item {
+  padding-left: 20px;
+  text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+  .nav-item {
+    padding-left: 50px;
+  }
+}
+.nav-title {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #12022f;
+}
